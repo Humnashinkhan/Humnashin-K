@@ -64,18 +64,16 @@ export const NavLinks = [
   },
   {
     name: "Resume",
-    path: "https://drive.google.com/file/d/1iATQB_lAUQRZV-Q1h0BOFlmAc2m67aKD/view",
+    path: "#",
     icon: <GoArrowUpRight size={20} className="text-[#1a1a1a] dark:text-[#fff]" />,
     iconFilled: <GoArrowUpRight size={20} />,
   },
 ];
 
 export const Socials = [
-  { name: "Linkedin", link: "https://www.linkedin.com/in/suryansh-sharma-776563226/", icon: <PiLinkedinLogoLight size={22} /> },
-  { name: "Instagram", link: "https://www.instagram.com/thesuryanshsharma/", icon: <PiInstagramLogoLight size={22} /> },
-  { name: "Telegram", link: "https://t.me/Ox287", icon: <PiTelegramLogoLight size={22} /> },
-  { name: "Twitter", link: "https://twitter.com/Suryanshhsharma", icon: <PiTwitterLogoLight size={22} /> },
-  { name: "Github", link: "https://github.com/suryansh9315", icon: <PiGithubLogoLight size={22} /> },
+  { name: "Linkedin", link: "https://www.linkedin.com/in/humnashin-khan-55kh/", icon: <PiLinkedinLogoLight size={22} /> },
+  { name: "Twitter", link: "#", icon: <PiTwitterLogoLight size={22} /> },
+  { name: "Github", link: "https://github.com/Humnashinkhan", icon: <PiGithubLogoLight size={22} /> },
 ];
 
 export const Projects = [
@@ -159,12 +157,12 @@ export const Stack = [
       "A framework for building mobile applications using JavaScript and React. It allows developers to write native apps for iOS and Android with a shared codebase, leveraging native components for performance.",
   },
   {
-    name: "Django",
-    purpose: "Web",
+    name: "TailwindCSS",
+    purpose: "CSS framework",
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
     description:
-      "A high-level Python web framework that encourages rapid development and clean, pragmatic design. It includes built-in tools for handling databases, authentication, and routing, making it ideal for building secure, scalable web applications.",
+      "A utility-first CSS framework for rapid UI development. It provides low-level utility classes for styling, allowing developers to build custom designs without writing custom CSS, improving efficiency and maintainability.",
   },
   {
     name: "Figma",
@@ -173,22 +171,6 @@ export const Stack = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
     description:
       "Figma is a cloud-based design tool used for creating user interfaces and prototypes. It enables collaboration among teams in real time.",
-  },
-  {
-    name: "Canva",
-    purpose: "Design",
-    image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg",
-    description:
-      "Canva is a user-friendly graphic design tool that enables individuals to create professional designs without prior experience.",
-  },
-  {
-    name: "Java",
-    purpose: "Language",
-    image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
-    description:
-      "Java is a high-level programming language used for building cross-platform applications. Known for its 'write once, run anywhere' philosophy.",
   },
   {
     name: "Next.js",
@@ -205,54 +187,6 @@ export const Stack = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
     description:
       "A predictable state container for JavaScript applications, commonly used with React. Redux manages the global state of an app, ensuring consistent data flow and simplifying debugging and testing by maintaining a central store.",
-  },
-  {
-    name: "TailwindCSS",
-    purpose: "CSS framework",
-    image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
-    description:
-      "A utility-first CSS framework for rapid UI development. It provides low-level utility classes for styling, allowing developers to build custom designs without writing custom CSS, improving efficiency and maintainability.",
-  },
-  {
-    name: "Material UI",
-    purpose: "CSS framework",
-    image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg",
-    description:
-      "A popular React UI framework that implements Google's Material Design principles. It offers a set of pre-designed, customizable components like buttons, modals, and icons, speeding up the development of responsive, modern user interfaces.",
-  },
-  {
-    name: "Python",
-    purpose: "Language",
-    image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
-    description:
-      "A versatile, high-level programming language known for its readability and ease of use. Python is widely used in web development, data science, machine learning, automation, and scripting, with a large ecosystem of libraries and frameworks.",
-  },
-  {
-    name: "FastAPI",
-    purpose: "Web",
-    image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg",
-    description:
-      "A modern, fast (high-performance) web framework for building APIs with Python. It is built on standard Python type hints, supporting asynchronous programming and offering automatic generation of OpenAPI documentation for easy API interaction.",
-  },
-  {
-    name: "Streamlit",
-    purpose: "Web",
-    image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-original.svg",
-    description:
-      "A framework for creating data-driven web applications with Python. It allows developers to build interactive apps for machine learning and data analysis quickly, using minimal code, ideal for prototyping and sharing data visualizations.",
-  },
-  {
-    name: "Ethers.js",
-    purpose: "Blockchain Library",
-    image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/solidity/solidity-original.svg",
-    description:
-      "A lightweight JavaScript library that simplifies interaction with the Ethereum blockchain. Ethers.js allows developers to interact with smart contracts, handle wallets, and send transactions with minimal setup and high security, often used in decentralized applications.",
   },
   {
     name: "Node.js",
@@ -277,30 +211,6 @@ export const Stack = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
     description:
       "A NoSQL, document-oriented database that stores data in flexible, JSON-like formats. MongoDB is ideal for applications that require scalability and flexible schema, providing high performance for read and write operations in large datasets.",
-  },
-  {
-    name: "PostgreSQL",
-    purpose: "Database",
-    image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
-    description:
-      "An open-source, object-relational database management system known for its robustness and support for complex queries, transactions, and data integrity.",
-  },
-  {
-    name: "Solidity",
-    purpose: "Language",
-    image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/solidity/solidity-original.svg",
-    description:
-      "A statically-typed programming language used for writing smart contracts on the Ethereum blockchain. Solidity allows developers to build decentralized applications (dApps) by defining rules for smart contract execution on the blockchain.",
-  },
-  {
-    name: "Hardhat",
-    purpose: "Blockchain Library",
-    image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hardhat/hardhat-original.svg",
-    description:
-      "A development environment for building, testing, and deploying smart contracts on the Ethereum network. Hardhat provides a local Ethereum network, Solidity debugging, and other tools.",
   },
   {
     name: "Git",

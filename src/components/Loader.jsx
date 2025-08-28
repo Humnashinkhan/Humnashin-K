@@ -75,7 +75,7 @@ const Loader = ({ children }) => {
                 className="text-[24px] text-[#1a1a1a] dark:text-white font-poppins"
                 layoutId="loader_anim_1"
               >
-                Suryansh Sharma
+                Humnashin Khan
               </motion.div>
             </div>
           </motion.div>

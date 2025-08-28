@@ -15,8 +15,6 @@ const Stack = () => {
           className="text-[36px] xl:text-[44px] py-10 font-bold text-[#1a1a1a] dark:text-white font-poppins leading-[40px] xl:leading-[50px]"
         >
           My Skill Stack:
-          <br />
-          Manefesting Digital Experiences
         </motion.div>
 
         <div>

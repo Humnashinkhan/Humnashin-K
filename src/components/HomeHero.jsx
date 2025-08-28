@@ -16,19 +16,23 @@ const HomeHero = () => {
     >
       <div className="flex flex-col gap-5 w-full md:w-[50%]">
         <div className="text-[44px] font-bold text-[#1a1a1a] font-poppins leading-[50px]">
-          <div className="bg-gradient-to-r from-purple-800 via-red-500 to-orange-400 inline-block text-transparent bg-clip-text animate-text">Hey there!</div>
+          <div className="bg-gradient-to-r from-purple-800 via-red-500 to-orange-400 inline-block text-transparent bg-clip-text animate-text">
+            Hey there!
+          </div>
           <br />
-          <div className="bg-gradient-to-r from-purple-800 via-red-500 to-orange-400 inline-block text-transparent bg-clip-text animate-text">I'm Suryansh</div>
+          <div className="bg-gradient-to-r from-purple-800 via-red-500 to-orange-400 inline-block text-transparent bg-clip-text animate-text">
+            I'm Humnashin
+          </div>
         </div>
         <div className="text-[16px] text-[#666666] dark:text-gray-400 font-poppins hidden sm:block">
           <div>I'm a passionate Full Stack Developer with a strong</div>
           <div>foundation in both front-end and back-end technologies.</div>
-          <div>With a keen interest in game development and blockchain.</div>
+          <div>With a keen interest in android development.</div>
         </div>
         <div className="text-[16px] text-[#666666] dark:text-gray-400 font-poppins block sm:hidden">
           I'm a passionate Full Stack Developer with a strong foundation in both
-          front-end and back-end technologies. With a keen interest in game
-          development and blockchain.
+          front-end and back-end technologies. With a keen interest in android
+          development.
         </div>
         <Link
           href={"/about"}
@@ -45,10 +49,12 @@ const HomeHero = () => {
       </div>
       <div className="w-full md:w-[50%] mb-5 md:mb-0">
         <Image
-          src={{ src: "/me2.jpeg", height: 68, width: 68 }}
-          alt="logo"
+          src="/me2.png"
+          alt="profile"
+          width={500}
+          height={500}
           unoptimized
-          className="rounded-md h-full w-full max-h-[350px] 2xl:max-h-[400px] object-cover object-center"
+          className="h-full w-full max-h-[400px] object-contain rounded-md object-center"
         />
       </div>
     </motion.div>

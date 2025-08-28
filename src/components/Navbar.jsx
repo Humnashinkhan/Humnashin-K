@@ -39,7 +39,7 @@ const Navbar = () => {
           />
           <div className="flex flex-col gap-0 items-start">
             <div className="text-[18px] font-semibold text-[#1a1a1a] font-poppins dark:text-white">
-              Suryansh Sharma
+              Humnashin Khan
             </div>
             <div className="text-[14px] font-light text-[#666666] dark:text-gray-400 font-poppins">
               Full Stack Developer

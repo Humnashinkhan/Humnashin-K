@@ -115,14 +115,14 @@ const Contact = () => {
                 <div className="font-poppins flex gap-3 items-center">
                   <HiOutlineMail size={22} />
                   <div>
-                    suryansh.sharma9315
+                    humnashin9955
                     <br />
                     @gmail.com
                   </div>
                 </div>
                 <div className="font-poppins flex gap-3 items-center">
                   <IoCallOutline size={22} />
-                  <div>+91 9315566594</div>
+                  <div>+91 7261895853</div>
                 </div>
               </div>
             </motion.div>

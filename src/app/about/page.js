@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import FlipText from "@/components/FlipText";
 import Image from "next/image";
@@ -18,9 +18,7 @@ const About = () => {
         >
           <div className="w-full sm:w-[45%] flex flex-col gap-2 sm:gap-5">
             <div className="text-[36px] xl:text-[44px] font-bold text-[#1a1a1a] dark:text-white font-poppins leading-[40px] xl:leading-[50px]">
-              About me:
-              <br />
-              Manefesting Digital Experiences
+              About me
             </div>
             <div className="font-poppins text-[14px] lg:text-[16px] text-[#666] dark:text-gray-400">
               I'm a passionate web designer dedicated to crafting visually
@@ -31,10 +29,12 @@ const About = () => {
           </div>
           <div className="w-full sm:w-[50%]">
             <Image
-              src={{ src: "/me2.jpeg", height: 48, width: 48 }}
-              alt="logo"
+              src="/me2.png"
+              alt="profile"
+              width={500}
+              height={500}
               unoptimized
-              className="h-full w-full max-h-[350px] 2xl:max-h-[400px] object-cover rounded-md object-center"
+              className="h-full w-full max-h-[400px] object-contain rounded-md object-center"
             />
           </div>
         </motion.div>
@@ -51,8 +51,8 @@ const About = () => {
               Education
             </div>
             <div className="font-poppins text-[14px] lg:text-[16px] text-[#666] dark:text-gray-400">
-              I earned my Bachelor's degree in Electronics and Communication
-              Engineering from Delhi Technological University, where I honed my
+              I earned my Bachelor's degree in Computer Science
+              Engineering from Amity University Jharkhand, where I honed my
               skills in design principles, user experience, and front-end
               development. My education provided a solid foundation for my
               career in web design.
@@ -83,13 +83,13 @@ const About = () => {
             </div>
             <div className="font-poppins text-[14px] lg:text-[16px] text-[#666] dark:text-gray-400">
               My technical toolkit includes proficiency in Framer, Figma, HTML,
-              CSS, JavaScript, and various design software like Adobe Creative
+              CSS,Tailwind Css, JavaScript, and various design software like Adobe Creative
               Suite. I'm also well-versed in responsive web design, ensuring
               that websites I create look and function flawlessly across all
               devices.
             </div>
             <Link
-              href={"/projects"}
+              href={"/stack"}
               className="text-[16px] text-[#666] dark:text-gray-400 dark:hover:text-white mt-2 hover:bg-[black] hover:text-[white] transition-all duration-300 font-poppins border border-[#666] rounded-md px-8 py-[10px] w-fit text-center cursor-pointer"
             >
               <FlipText
