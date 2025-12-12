@@ -1,3 +1,86 @@
+// import { Inter, Poppins, Oswald, Quicksand } from "next/font/google";
+// import localFont from "next/font/local";
+// import Loader from "@/components/Loader";
+// import "./globals.css";
+// import { Providers } from "./providers";
+
+// const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+// const oswald = Oswald({
+//   subsets: ["latin"],
+//   variable: "--font-oswald",
+//   weight: "400",
+// });
+// const quick = Quicksand({
+//   subsets: ["latin"],
+//   variable: "--font-quick",
+//   weight: "700",
+// });
+// const quickLight = Quicksand({
+//   subsets: ["latin"],
+//   variable: "--font-quickLight",
+//   weight: "400",
+// });
+// const poppins = Poppins({
+//   subsets: ["latin"],
+//   variable: "--font-poppins",
+//   weight: "500",
+// });
+// const bella = localFont({
+//   src: "../../public/fonts/bella.ttf",
+//   display: "swap",
+//   variable: "--font-bella",
+// });
+// const corir = localFont({
+//   src: "../../public/fonts/corir.ttf",
+//   display: "swap",
+//   variable: "--font-corir",
+// });
+// const suiss = localFont({
+//   src: "../../public/fonts/Suissnord.otf",
+//   display: "swap",
+//   variable: "--font-suiss",
+// });
+
+// export const metadata = {
+//   title: "Humnashin K.",
+//   description: "FullStack Developer Portfolio",
+//   openGraph: {
+//     title: 'Humnashin K.',
+//     description: 'FullStack Developer Portfolio',
+//     url: 'https://suryanshsharma.vercel.app/',
+//     siteName: 'Humnashin K.',
+//     images: [
+//       {
+//         url: 'https://suryanshsharma.vercel.app/me_cartoon.png',
+//         width: 500,
+//         height: 500,
+//       }
+//     ],
+//     locale: 'en_US',
+//     type: 'website',
+//   },
+// };
+
+// export default function RootLayout({ children }) {
+//   return (
+//     <html lang="en">
+//       <body
+//         className={`${quickLight.variable} ${quick.variable} ${inter.variable} ${suiss.variable} ${poppins.variable} ${bella.variable} ${corir.variable} ${oswald.variable}`}
+//       >
+//         <Providers>
+//           <Loader>{children}</Loader>
+//         </Providers>
+//       </body>
+//     </html>
+//   );
+// }
+
+// // TODO
+// // Add Move up ANimation globally
+// // Make Lenis Work
+// // Add Dark Mode
+// // Contact Error Handling
+
 import { Inter, Poppins, Oswald, Quicksand } from "next/font/google";
 import localFont from "next/font/local";
 import Loader from "@/components/Loader";
@@ -45,25 +128,25 @@ export const metadata = {
   title: "Humnashin K.",
   description: "FullStack Developer Portfolio",
   openGraph: {
-    title: 'Humnashin K.',
-    description: 'FullStack Developer Portfolio',
-    url: 'https://suryanshsharma.vercel.app/',
-    siteName: 'Humnashin K.',
+    title: "Humnashin K.",
+    description: "FullStack Developer Portfolio",
+    url: "https://suryanshsharma.vercel.app/",
+    siteName: "Humnashin K.",
     images: [
       {
-        url: 'https://suryanshsharma.vercel.app/me_cartoon.png',
+        url: "https://suryanshsharma.vercel.app/me_cartoon.png",
         width: 500,
         height: 500,
-      }
+      },
     ],
-    locale: 'en_US',
-    type: 'website',
+    locale: "en_US",
+    type: "website",
   },
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${quickLight.variable} ${quick.variable} ${inter.variable} ${suiss.variable} ${poppins.variable} ${bella.variable} ${corir.variable} ${oswald.variable}`}
       >
@@ -74,9 +157,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-
-// TODO
-// Add Move up ANimation globally
-// Make Lenis Work
-// Add Dark Mode
-// Contact Error Handling
