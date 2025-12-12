@@ -62,55 +62,55 @@ export const NavLinks = [
     icon: <HiOutlineMail size={20} className="text-[#666] dark:text-[#666]" />,
     iconFilled: <HiMail size={20} className="text-[#fff] dark:text-[#fff]"/>,
   },
-  {
-    name: "Resume",
-    path: "#",
-    icon: <GoArrowUpRight size={20} className="text-[#1a1a1a] dark:text-[#fff]" />,
-    iconFilled: <GoArrowUpRight size={20} />,
-  },
+  // {
+  //   name: "Resume",
+  //   path: "/",
+  //   icon: <GoArrowUpRight size={20} className="text-[#1a1a1a] dark:text-[#fff]" />,
+  //   iconFilled: <GoArrowUpRight size={20} />,
+  // },
 ];
 
 export const Socials = [
   { name: "Linkedin", link: "https://www.linkedin.com/in/humnashin-khan-55kh/", icon: <PiLinkedinLogoLight size={22} /> },
-  { name: "Twitter", link: "#", icon: <PiTwitterLogoLight size={22} /> },
   { name: "Github", link: "https://github.com/Humnashinkhan", icon: <PiGithubLogoLight size={22} /> },
+  { name: "Instagram", link: "https://www.instagram.com/_humnashi.9955_?igsh=OTV0NHVnNXJ5OGYx&utm_source=qr", icon: <PiInstagramLogoLight size={22} />},
 ];
 
 export const Projects = [
   {
-    name: "All Swap",
+    name: "Asistensia Website",
     image: "/images/1.png",
-    link: "https://all-swap-flax.vercel.app",
+    link: "https://asistensia.com/",
     color: "#07DAC0",
   },
   {
-    name: "Fuzzie",
-    image: "/images/auto_resize.png",
-    link: "https://autosaas.vercel.app/",
+    name: "Netflix-inspired streaming platform",
+    image: "/images/2.png",
+    link: "https://netflix-gpt-eight-phi.vercel.app/",
     color: "#07DAC0",
   },
   {
-    name: "Night Flinch Media",
+    name: "Youtube Clone",
     image: "/images/3.png",
-    link: "https://www.nightfinchmedia.in/",
+    link: "https://my-youtube-brown.vercel.app/",
     color: "#CE2380",
   },
   {
-    name: "3D Viewer",
-    image: "/images/5.png",
-    link: "https://3d-viewer-three.vercel.app",
+    name: "CRUD App",
+    image: "/images/5.jpg",
+    link: "https://crud-application-ruby.vercel.app/",
     color: "#CE2380",
   },
   {
-    name: "SS Store",
+    name: "Sentence Construction Quiz App",
     image: "/images/6.png",
-    link: "https://ecom-sanity-stripe.vercel.app",
+    link: "https://sentance-construction-quiz-app-upqs.vercel.app/",
     color: "#171810",
   },
   {
-    name: "CrowdFunding",
+    name: "Music Player App",
     image: "/images/4.png",
-    link: "https://crowd-funding-seven.vercel.app",
+    link: "https://music-player-app-beta-three.vercel.app/",
     color: "#07DAC0",
   },
 ];
@@ -248,40 +248,39 @@ export const Stack = [
 
 export const Experience = [
   {
-    company: "Yosemite Crew",
-    start_date: "Feb 2025",
-    end_date: "present",
-    designation: "Founding Engineer",
+    company: "Asistensia",
+    start_date: "November 2023",
+    end_date: "Feb 2025",
+    designation: "Frontend Developer Trainee",
     summary: [
-      "Built and maintained scalable CI/CD pipelines for a monorepo architecture using pnpm workspaces and Turborepo, optimizing development workflows across teams.",
-      "Integrated FHIR standards for medical APIs, enabling secure and interoperable healthcare data exchange.",
+      "Developedand optimized responsive web interfaces using React and Tailwind CSS, improving page load speed by 25%andmobile usability across 3+ screen sizes.",
       "Developed and maintained the documentation website, improving internal and external developer onboarding.",
-      "Led development of a developer portal using microfrontend architecture with single-spa, enhancing modularity and cross-team collaboration."
+      "Collaborated with a cross-functional software engineering team to build end-to-end web features, Enhancedskills in HTML, Tailwind CSS, JavaScript, and React.js.",
     ],
-    image: "/images/LinkedIn_Header.png"
+    image: "/images/1.png"
   },
   {
-    company: "FixHealth",
-    start_date: "Oct 2024",
-    end_date: "Jan 2025",
-    designation: "FrontEnd Developer",
+    company: "Valutico",
+    start_date: "Feb 2023",
+    end_date: "Aug 2023",
+    designation: "SDE Intern",
     summary: [
-      "Improved and implemented interactive video features using 100ms API for seamless real-time video conferencing and communication between therapists and patients.",
       "Incorporated React components to build dynamic, responsive user interfaces, resulting in a 25% increase in user engagement.",
-      "Utilized Airtable as the backend database to store and manage patient data, appointment schedules, and therapist availability,  which led to a 40% improvement in data retrieval speed and a 25% reduction in scheduling conflicts.",
+      "Worked with the software engineering department to build up knowledge and experience in frontend and backend development.",
+      "Contributed to the development of responsive and user-friendly web interfaces, Focusedonbuilding foundational knowledge and hands-on experience in frontend and backend software development.",
     ],
-    image: "/images/FH.png"
+    image: "/images/V.png"
   },
-  {
-    company: "ONEV",
-    start_date: "March 2024",
-    end_date: "Sept 2024",
-    designation: "Software Developer Intern",
-    summary: [
-      "Implemented an OTP architecture for secure and efficient driver authentication during onboarding and login processes, reducing unauthorized access attempts by 30%.",
-      "Integrated Razorpay payment gateway to facilitate daily payments for drivers, resulting in a 20% reduction in payment processing time and a 15% increase in payment success rate.",
-      "Firebase push notifications to keep drivers informed about important updates, payment confirmations, and attendance records, leading to a 25% improvement in driver engagement",
-    ],
-    image: "/images/2.png"
-  },
+  // {
+  //   company: "ONEV",
+  //   start_date: "March 2024",
+  //   end_date: "Sept 2024",
+  //   designation: "Software Developer Intern",
+  //   summary: [
+  //     "Implemented an OTP architecture for secure and efficient driver authentication during onboarding and login processes, reducing unauthorized access attempts by 30%.",
+  //     "Integrated Razorpay payment gateway to facilitate daily payments for drivers, resulting in a 20% reduction in payment processing time and a 15% increase in payment success rate.",
+  //     "Firebase push notifications to keep drivers informed about important updates, payment confirmations, and attendance records, leading to a 25% improvement in driver engagement",
+  //   ],
+  //   image: "/images/2.png"
+  // },
 ];

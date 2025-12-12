@@ -8,7 +8,7 @@ const DesktopSidebar = () => {
   const pathname = usePathname();
 
   return (
-    <div className="flex h-screen overflow-hidden bg-[#fff] dark:bg-[#070708] px-6 py-5 border-r border-r-[#e6e6e6] dark:border-r-gray-800 w-fit flex-col justify-between">
+    <div className="flex h-screen overflow-hidden bg-[#fff] dark:bg-[#070708] px-6 py-5 border-r border-r-[#e6e6e6] dark:border-r-gray-800 w-96 flex-col justify-between">
       <div className="">
         <div className="flex flex-col lg:flex-row gap-2 lg:gap-4 items-center py-4 lg:py-8 border-b border-b-[#e6e6e6] dark:border-b-gray-800 cursor-pointer">
           <Image

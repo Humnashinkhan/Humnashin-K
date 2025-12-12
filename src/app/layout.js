@@ -42,13 +42,13 @@ const suiss = localFont({
 });
 
 export const metadata = {
-  title: "Suryansh S.",
+  title: "Humnashin K.",
   description: "FullStack Developer Portfolio",
   openGraph: {
-    title: 'Suryansh S.',
+    title: 'Humnashin K.',
     description: 'FullStack Developer Portfolio',
     url: 'https://suryanshsharma.vercel.app/',
-    siteName: 'Suryansh S.',
+    siteName: 'Humnashin K.',
     images: [
       {
         url: 'https://suryanshsharma.vercel.app/me_cartoon.png',
